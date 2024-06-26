@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif; /* 设置页面的默认字体为Arial，如果没有Arial，则使用sans-serif */
+    background-color: #f0f0f0; /* 设置背景颜色为浅灰色 */
+    margin: 0; /* 去掉页面的默认外边距 */
+    padding: 20px; /* 设置页面的内边距为20像素 */
+    font-size: 18px; /* 设置页面的默认字体大小为18像素 */
+}
+
+header {
+    background-color: #1900ff; /* 设置页眉的背景颜色为绿色 */
+    color: rgb(255, 102, 0); /* 设置页眉文字的颜色为白色 */
+    padding: 15px; /* 设置页眉的内边距为15像素 */
+    text-align: center; /* 将页眉的文字居中对齐 */
+}
+
+main {
+    margin-top: 20px; /* 设置主要内容区顶部的外边距为20像素，使其与页眉有一定的间距 */
+    text-align: center; /* 将主要内容区的文字居中对齐 */
+}
+
+.audio-container {
+    display: flex; /* 使用Flexbox布局 */
+    justify-content: center; /* 水平方向居中对齐 */
+    align-items: center; /* 垂直方向居中对齐 */
+    margin: 20px 0; /* 设置上下外边距为20像素 */
+}
+
+audio {
+    width: 200%; /* 设置音频播放器的宽度为100% */
+    max-width: 600px; /* 设置音频播放器的最大宽度为600像素 */
+}
+
+footer {
+    background-color: #ff7300; /* 设置页脚的背景颜色为深灰色 */
+    color: rgb(0, 26, 255); /* 设置页脚文字的颜色为白色 */
+    text-align: center; /* 将页脚的文字居中对齐 */
+    padding: 10px; /* 设置页脚的内边距为10像素 */
+    position: fixed; /* 固定页脚在页面底部 */
+    width: 100%; /* 设置页脚宽度为100%，即占据整个页面宽度 */
+    bottom: 0; /* 将页脚固定在页面的最底部 */
+}
+
+a {
+    color: #1100ff; /* 设置链接文字的颜色为绿色 */
+    text-decoration: none; /* 去掉链接文字的下划线 */
+}
+
+a:hover {
+    text-decoration: underline; /* 当鼠标悬停在链接上时，显示下划线 */
+}
+

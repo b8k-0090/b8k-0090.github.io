@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>服务</title>
+    <link href="fuwu.html" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: hsl(24, 92%, 64%);
+        }
+        header {
+            background: #3aa0ff;
+            color: #ff8737;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #d3d3d3;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            margin: 1rem;
+            padding: 1rem;
+            width: calc(33% - 2rem);
+            transition: transform 0.3s;
+        }
+        .card img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .card:hover {
+            transform: translateY(-10px);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>服务</h1>
+    </header>
+    <nav>
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="fuwu.html">服务</a>
+        <a href="contact.html">联系我们</a>
+    </nav>
+    <div class="content">
+        <div class="card">
+            <img src="picture/tutu(5).jpg" alt="Image 1">
+            <h2>1</h2>
+            <p>I disapprove of what you say, but I will defend to the death your right to say it.” —— Voltaire</p>
+        </div>
+        <div class="card">
+            <img src="picture/tutu(6).png" alt="Image 2">
+            <h2>2</h2>
+            <p>Twenty years from now you will be more disappointed by the things that you didn't do than by the things you did</p>
+        </div>
+        <div class="card">
+            <img src="picture/tutu(7).png" alt="Image 3">
+            <h2>3</h2>
+            <p>Success is not final, failure is not fatal: It is the courage to continue that counts.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 你的名字. 版权所有.</p>
+    </footer>
+</body>
+</html>
